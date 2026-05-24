@@ -1,0 +1,13 @@
+Options -Indexes
+DirectoryIndex index.php
+
+RewriteEngine On
+
+# Allow the public coming-soon page and local site assets to load for everyone.
+RewriteRule ^coming-soon/?$ coming-soon.php [L]
+
+RewriteCond %{REQUEST_URI} !/coming-soon(\.php)?/?$ [NC]
+RewriteCond %{REQUEST_URI} !/assets/ [NC]
+RewriteCond %{REQUEST_URI} !/favicon\.(ico|png|svg)$ [NC]
+RewriteCond %{REMOTE_ADDR} !^192\.61\.97\.139$
+RewriteRule ^.*$ coming-soon.php [R=302,L]
