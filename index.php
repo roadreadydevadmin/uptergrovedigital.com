@@ -111,6 +111,7 @@ $team = [
     <title>Uptergrove Digital | Digital Marketing, Websites, SEO, and Paid Media</title>
     <meta name="description" content="Uptergrove Digital builds conversion-focused websites, SEO systems, paid campaigns, and reporting for growing businesses.">
     <link rel="icon" href="assets/img/uptergrove-mark.png">
+    <script>document.documentElement.classList.add('js');</script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
     <link href="assets/css/styles.css" rel="stylesheet">
@@ -144,7 +145,7 @@ $team = [
             <img src="assets/img/uptergrove-mark.png" alt="" class="hero-mark" aria-hidden="true">
             <div class="container position-relative">
                 <div class="row align-items-center g-4 g-lg-5">
-                    <div class="col-lg-7">
+                    <div class="col-lg-7 hero-copy">
                         <p class="eyebrow">Digital marketing studio</p>
                         <h1><span>Uptergrove</span><span>Digital</span></h1>
                         <p class="hero-lead">
@@ -161,7 +162,7 @@ $team = [
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-5">
+                    <div class="col-lg-5 hero-visual">
                         <div class="growth-console" aria-label="Marketing performance preview">
                             <div class="console-top">
                                 <span></span>
@@ -214,15 +215,15 @@ $team = [
 
         <section class="section-block" id="services">
             <div class="container">
-                <div class="section-heading">
+                <div class="section-heading reveal">
                     <h2><span>Services</span></h2>
                     <p>Focused digital marketing services designed to help your business get found, trusted, and contacted.</p>
                 </div>
 
                 <div class="row g-4">
-                    <?php foreach ($services as $service): ?>
+                    <?php foreach ($services as $index => $service): ?>
                         <div class="col-md-6">
-                            <article class="service-card service-<?php echo htmlspecialchars($service['theme']); ?>">
+                            <article class="service-card service-<?php echo htmlspecialchars($service['theme']); ?> reveal" style="--reveal-delay: <?php echo ($index % 2) * 90; ?>ms">
                                 <div class="service-copy">
                                     <p class="service-label"><?php echo htmlspecialchars($service['label']); ?></p>
                                     <h3><?php echo htmlspecialchars($service['title']); ?></h3>
@@ -244,12 +245,12 @@ $team = [
 
         <section class="section-block" id="work">
             <div class="container">
-                <div class="section-heading">
+                <div class="section-heading reveal">
                     <h2><span>Use Cases</span></h2>
                     <p>Examples of where a tighter digital system can quickly make the business easier to find and easier to choose.</p>
                 </div>
 
-                <div class="case-panel">
+                <div class="case-panel reveal">
                     <div class="row g-0">
                         <?php foreach ($caseStudies as $index => $case): ?>
                             <div class="col-lg-4">
@@ -267,7 +268,7 @@ $team = [
 
         <section class="section-block process-section" id="process">
             <div class="container">
-                <div class="section-heading">
+                <div class="section-heading reveal">
                     <h2><span>Process</span></h2>
                     <p>A straightforward path from audit to launch, with reporting that keeps the work anchored to results.</p>
                 </div>
@@ -275,7 +276,7 @@ $team = [
                 <div class="accordion ud-accordion" id="processAccordion">
                     <?php foreach ($process as $index => $item): ?>
                         <?php $isOpen = $index === 0; ?>
-                        <div class="accordion-item">
+                        <div class="accordion-item reveal" style="--reveal-delay: <?php echo $index * 80; ?>ms">
                             <h3 class="accordion-header">
                                 <button class="accordion-button <?php echo $isOpen ? '' : 'collapsed'; ?>" type="button" data-bs-toggle="collapse" data-bs-target="#process-<?php echo $index; ?>" aria-expanded="<?php echo $isOpen ? 'true' : 'false'; ?>" aria-controls="process-<?php echo $index; ?>">
                                     <span><?php echo htmlspecialchars($item['step']); ?></span>
@@ -295,15 +296,15 @@ $team = [
 
         <section class="section-block" id="team">
             <div class="container">
-                <div class="section-heading">
+                <div class="section-heading reveal">
                     <h2><span>Team</span></h2>
                     <p>Strategy, web, and campaign execution working together instead of operating in disconnected lanes.</p>
                 </div>
 
                 <div class="row g-4">
-                    <?php foreach ($team as $member): ?>
+                    <?php foreach ($team as $index => $member): ?>
                         <div class="col-md-4">
-                            <article class="team-card">
+                            <article class="team-card reveal" style="--reveal-delay: <?php echo $index * 90; ?>ms">
                                 <div class="team-top">
                                     <div class="team-avatar"><?php echo htmlspecialchars($member['initials']); ?></div>
                                     <i class="bi bi-linkedin"></i>
@@ -320,12 +321,12 @@ $team = [
 
         <section class="section-block testimonials-section" aria-labelledby="testimonials-title">
             <div class="container">
-                <div class="section-heading">
+                <div class="section-heading reveal">
                     <h2 id="testimonials-title"><span>Testimonials</span></h2>
                     <p>Clear strategy, cleaner execution, and digital work that is easy to understand after launch.</p>
                 </div>
 
-                <div class="testimonial-panel">
+                <div class="testimonial-panel reveal">
                     <div class="row g-4">
                         <div class="col-lg-6">
                             <blockquote>
@@ -346,7 +347,7 @@ $team = [
 
         <section class="section-block contact-section" id="contact">
             <div class="container">
-                <div class="contact-panel">
+                <div class="contact-panel reveal">
                     <div class="row g-5 align-items-center">
                         <div class="col-lg-5">
                             <p class="eyebrow">Let's make things happen</p>
@@ -417,5 +418,6 @@ $team = [
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/site.js"></script>
 </body>
 </html>
