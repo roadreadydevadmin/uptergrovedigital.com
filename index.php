@@ -29,6 +29,20 @@ $services = [
         'theme' => 'light',
     ],
     [
+        'title' => 'Point of Sale Setups',
+        'label' => 'PoS systems',
+        'icon' => 'bi-credit-card-2-front',
+        'body' => 'Point of Sale setup, configuration, and workflow support for businesses that need smoother checkout and cleaner operations.',
+        'theme' => 'blue',
+    ],
+    [
+        'title' => 'Phone and Texting Systems',
+        'label' => 'Communications',
+        'icon' => 'bi-telephone',
+        'body' => 'Business phone and texting systems that help teams respond faster, track conversations, and keep customer follow-up organized.',
+        'theme' => 'navy',
+    ],
+    [
         'title' => 'Email and Automations',
         'label' => 'Retention',
         'icon' => 'bi-envelope-paper',
@@ -57,28 +71,32 @@ $caseStudies = [
         'title' => 'Website trust rebuild',
         'body' => 'Refreshed copy, speed, service hierarchy, and proof points to make the first visit feel credible.',
     ],
+    [
+        'title' => 'Operations system setup',
+        'body' => 'Connected PoS, phone, and texting tools so customer conversations and checkout workflows were easier to manage.',
+    ],
 ];
 
 $process = [
     [
         'step' => '01',
         'title' => 'Discovery and audit',
-        'body' => 'We review your goals, competitors, analytics, website, and current marketing channels to find the highest-leverage opportunities.',
+        'body' => 'We review your goals, competitors, analytics, website, and customer-facing systems to find the highest-leverage opportunities.',
     ],
     [
         'step' => '02',
         'title' => 'Strategy map',
-        'body' => 'You get a practical plan with channel priorities, messaging direction, landing page needs, and measurable targets.',
+        'body' => 'You get a practical plan with system priorities, messaging direction, website needs, and measurable targets.',
     ],
     [
         'step' => '03',
         'title' => 'Build and launch',
-        'body' => 'We create the pages, AI chat bots, content, automations, and tracking needed to launch with clean execution.',
+        'body' => 'We create the pages, AI chat bots, PoS setups, phone systems, automations, and tracking needed to launch with clean execution.',
     ],
     [
         'step' => '04',
         'title' => 'Optimize and report',
-        'body' => 'Performance is reviewed regularly so we can improve spend, search visibility, conversion rate, and next-step clarity.',
+        'body' => 'Performance is reviewed regularly so we can improve search visibility, response speed, conversion rate, and next-step clarity.',
     ],
 ];
 
@@ -96,10 +114,10 @@ $team = [
         'initials' => 'UX',
     ],
     [
-        'name' => 'AI Automation Specialist',
-        'role' => 'Chat bots and reporting',
-        'body' => 'Builds AI chat flows, lead routing, and clean tracking so automated conversations stay useful and measurable.',
-        'initials' => 'PM',
+        'name' => 'Automation and Systems Specialist',
+        'role' => 'AI, PoS, phone, and text',
+        'body' => 'Builds AI chat flows, PoS handoffs, phone/text routing, and clean tracking so customer systems stay useful and measurable.',
+        'initials' => 'OS',
     ],
 ];
 ?>
@@ -108,8 +126,8 @@ $team = [
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Uptergrove Digital | Digital Marketing, Websites, SEO, and AI Chat Bots</title>
-    <meta name="description" content="Uptergrove Digital builds websites, SEO systems, AI chat bots, automations, and reporting for growing businesses.">
+    <title>Uptergrove Digital | Websites, SEO, AI Chat Bots, PoS, Phone, and Texting Systems</title>
+    <meta name="description" content="Uptergrove Digital builds websites, SEO systems, AI chat bots, PoS setups, business phone and texting systems, automations, and reporting.">
     <link rel="icon" href="assets/img/uptergrove-mark.png">
     <script>document.documentElement.classList.add('js');</script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -146,10 +164,10 @@ $team = [
             <div class="container position-relative">
                 <div class="row align-items-center g-4 g-lg-5">
                     <div class="col-lg-7 hero-copy">
-                        <p class="eyebrow">Digital marketing studio</p>
+                        <p class="eyebrow">Digital systems studio</p>
                         <h1><span>Uptergrove</span><span>Digital</span></h1>
                         <p class="hero-lead">
-                            Digital marketing, websites, SEO, and AI chat bots for businesses that want sharper visibility and steadier lead flow.
+                            Websites, SEO, AI chat bots, PoS setups, and phone/texting systems for businesses that want sharper visibility and smoother operations.
                         </p>
                         <div class="hero-actions">
                             <a href="#contact" class="btn btn-primary-blue btn-lg">
@@ -196,7 +214,7 @@ $team = [
                             </div>
                             <div class="console-footer">
                                 <i class="bi bi-check-circle-fill"></i>
-                                AI, content, and web systems aligned.
+                                AI, PoS, phone, and web systems aligned.
                             </div>
                         </div>
                     </div>
@@ -207,6 +225,8 @@ $team = [
                     <span>Websites</span>
                     <span>AI Chat Bots</span>
                     <span>Local Search</span>
+                    <span>PoS Setups</span>
+                    <span>Phone/Text</span>
                     <span>Automation</span>
                     <span>Analytics</span>
                 </div>
@@ -217,7 +237,7 @@ $team = [
             <div class="container">
                 <div class="section-heading reveal">
                     <h2><span>Services</span></h2>
-                    <p>Focused digital marketing services designed to help your business get found, trusted, and contacted.</p>
+                    <p>Focused digital and operations services designed to help your business get found, trusted, contacted, and organized.</p>
                 </div>
 
                 <div class="row g-4">
@@ -247,13 +267,13 @@ $team = [
             <div class="container">
                 <div class="section-heading reveal">
                     <h2><span>Use Cases</span></h2>
-                    <p>Examples of where a tighter digital system can quickly make the business easier to find and easier to choose.</p>
+                    <p>Examples of where tighter digital and customer systems can quickly make the business easier to find, choose, and run.</p>
                 </div>
 
                 <div class="case-panel reveal">
                     <div class="row g-0">
                         <?php foreach ($caseStudies as $index => $case): ?>
-                            <div class="col-lg-4">
+                            <div class="col-lg-3">
                                 <article class="case-item <?php echo $index < count($caseStudies) - 1 ? 'case-border' : ''; ?>">
                                     <h3><?php echo htmlspecialchars($case['title']); ?></h3>
                                     <p><?php echo htmlspecialchars($case['body']); ?></p>
@@ -353,7 +373,7 @@ $team = [
                             <p class="eyebrow">Let's make things happen</p>
                             <h2>Start with a focused digital growth review.</h2>
                             <p>
-                                Share what you are trying to improve and we will outline the highest-impact next steps for your website, search, and AI chat bots.
+                                Share what you are trying to improve and we will outline the highest-impact next steps for your website, search, AI chat bots, PoS setup, or phone/texting systems.
                             </p>
                             <a class="contact-email" href="mailto:hello@uptergrovedigital.com">
                                 <i class="bi bi-envelope"></i>
@@ -378,6 +398,8 @@ $team = [
                                             <option>Better website conversion</option>
                                             <option>More local visibility</option>
                                             <option>AI chat bot setup</option>
+                                            <option>Point of Sale setup</option>
+                                            <option>Phone and texting systems</option>
                                             <option>Analytics and reporting</option>
                                         </select>
                                     </div>
