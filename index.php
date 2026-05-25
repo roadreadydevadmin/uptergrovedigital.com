@@ -6,7 +6,7 @@ $services = [
         'icon' => 'bi-search',
         'body' => 'Technical SEO, content plans, and local search improvements that help the right customers find you first.',
         'theme' => 'light',
-        'price' => '$750',
+        'price' => '$299',
         'term' => '/mo',
         'price_note' => 'Technical SEO, local search, and content guidance.',
     ],
@@ -36,7 +36,7 @@ $services = [
         'icon' => 'bi-robot',
         'body' => 'Custom AI chat assistants that answer questions, qualify leads, collect details, and help customers take the next step.',
         'theme' => 'navy',
-        'price' => '$500',
+        'price' => '$99',
         'term' => '/mo',
         'price_note' => 'Lead capture bots, FAQs, routing flows, and monthly optimization.',
     ],
@@ -46,7 +46,7 @@ $services = [
         'icon' => 'bi-geo-alt',
         'body' => 'Google Business Profile, review strategy, and local landing pages for companies that win by being nearby.',
         'theme' => 'light',
-        'price' => '$600',
+        'price' => '$149',
         'term' => '/mo',
         'price_note' => 'Local visibility, review support, and service-area improvements.',
     ],
@@ -56,7 +56,7 @@ $services = [
         'icon' => 'bi-credit-card-2-front',
         'body' => 'Point of Sale configuration and workflow support for businesses that need smoother checkout and cleaner operations.',
         'theme' => 'blue',
-        'price' => '$750',
+        'price' => '$249',
         'term' => '/mo',
         'price_note' => 'PoS configuration, menu/items, taxes, and monthly workflow support.',
     ],
@@ -66,9 +66,19 @@ $services = [
         'icon' => 'bi-telephone',
         'body' => 'Business phone and texting systems that help teams respond faster, track conversations, and keep customer follow-up organized.',
         'theme' => 'navy',
-        'price' => '$250',
+        'price' => '$99',
         'term' => '/mo',
         'price_note' => 'Business phone, texting, routing, and response workflows.',
+    ],
+    [
+        'title' => 'Online Booking Systems',
+        'label' => 'Scheduling',
+        'icon' => 'bi-calendar-check',
+        'body' => 'Online booking systems that let customers schedule services, request appointments, and keep your calendar organized.',
+        'theme' => 'blue',
+        'price' => '$149',
+        'term' => '/mo',
+        'price_note' => 'Booking pages, calendar connections, reminders, and monthly support.',
     ],
     [
         'title' => 'Custom Software Creation',
@@ -76,9 +86,19 @@ $services = [
         'icon' => 'bi-code-slash',
         'body' => 'Custom software, dashboards, internal tools, and workflow apps built around how your business actually operates.',
         'theme' => 'light',
-        'price' => '$1,000',
-        'term' => '/mo',
+        'price' => 'Request Quote',
+        'term' => '(request only)',
         'price_note' => 'Internal tools, dashboards, portals, and monthly software iteration.',
+    ],
+    [
+        'title' => 'Email Marketing',
+        'label' => 'Campaigns',
+        'icon' => 'bi-envelope-at',
+        'body' => 'Email marketing campaigns, newsletters, audience segments, and reporting that keep customers engaged after the first visit.',
+        'theme' => 'light',
+        'price' => '$129',
+        'term' => '/mo',
+        'price_note' => 'Campaign planning, newsletters, segmentation, and monthly reporting.',
     ],
     [
         'title' => 'Email and Automations',
@@ -86,7 +106,7 @@ $services = [
         'icon' => 'bi-envelope-paper',
         'body' => 'Follow-up sequences, list cleanup, and simple automations that keep good leads from slipping away.',
         'theme' => 'blue',
-        'price' => '$400',
+        'price' => '$199',
         'term' => '/mo',
         'price_note' => 'Email follow-ups, simple automations, list cleanup, and monthly care.',
     ],
@@ -96,7 +116,7 @@ $services = [
         'icon' => 'bi-bar-chart-line',
         'body' => 'Dashboards and monthly readouts that separate busy metrics from the signals that deserve action.',
         'theme' => 'navy',
-        'price' => '$300',
+        'price' => '$99',
         'term' => '/mo',
         'price_note' => 'Dashboards, reporting maintenance, and monthly performance readouts.',
     ],
@@ -117,7 +137,7 @@ $caseStudies = [
     ],
     [
         'title' => 'Operations system setup',
-        'body' => 'Connected PoS, phone, and texting tools so customer conversations and checkout workflows were easier to manage.',
+        'body' => 'Connected PoS, booking, phone, and texting tools so customer conversations and checkout workflows were easier to manage.',
     ],
 ];
 
@@ -135,7 +155,7 @@ $process = [
     [
         'step' => '03',
         'title' => 'Build and launch',
-        'body' => 'We create the pages, ecommerce stores, custom software, AI chat bots, PoS systems, phone systems, automations, and tracking needed to launch with clean execution.',
+        'body' => 'We create the pages, ecommerce stores, custom software, AI chat bots, PoS systems, booking systems, phone systems, email marketing, automations, and tracking needed to launch with clean execution.',
     ],
     [
         'step' => '04',
@@ -170,8 +190,8 @@ $team = [
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Uptergrove Digital | Websites, Ecommerce, Custom Software, SEO, AI, PoS, and Phone Systems</title>
-    <meta name="description" content="Uptergrove Digital builds websites, ecommerce websites, custom software, SEO systems, AI chat bots, PoS setups, phone and texting systems, automations, and reporting.">
+    <title>Uptergrove Digital | Websites, Ecommerce, Software, SEO, AI, Booking, PoS, and Phone Systems</title>
+    <meta name="description" content="Uptergrove Digital builds websites, ecommerce websites, custom software, SEO systems, AI chat bots, booking systems, PoS setups, phone and texting systems, email marketing, automations, and reporting.">
     <link rel="icon" href="assets/img/uptergrove-mark.png">
     <script>document.documentElement.classList.add('js');</script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -212,7 +232,7 @@ $team = [
                         <p class="eyebrow">Digital systems studio</p>
                         <h1><span>Uptergrove</span><span>Digital</span></h1>
                         <p class="hero-lead">
-                            Websites, ecommerce, custom software, SEO, AI chat bots, PoS setups, and phone/texting systems for sharper visibility and smoother operations.
+                            Websites, ecommerce, custom software, SEO, AI chat bots, booking systems, PoS setups, phone/texting systems, and email marketing for sharper visibility and smoother operations.
                         </p>
                         <div class="hero-actions">
                             <a href="#contact" class="btn btn-primary-blue btn-lg">
@@ -259,7 +279,7 @@ $team = [
                             </div>
                             <div class="console-footer">
                                 <i class="bi bi-check-circle-fill"></i>
-                                Software, AI, PoS, phone, and web systems aligned.
+                                Software, AI, booking, PoS, phone, email, and web systems aligned.
                             </div>
                         </div>
                     </div>
@@ -273,7 +293,9 @@ $team = [
                     <span>AI Chat Bots</span>
                     <span>Local Search</span>
                     <span>PoS Setups</span>
+                    <span>Booking</span>
                     <span>Phone/Text</span>
+                    <span>Email Marketing</span>
                     <span>Automation</span>
                     <span>Analytics</span>
                 </div>
@@ -451,7 +473,7 @@ $team = [
                             <p class="eyebrow">Let's make things happen</p>
                             <h2>Start with a focused digital growth review.</h2>
                             <p>
-                                Share what you are trying to improve and we will outline the highest-impact next steps for your website, ecommerce store, custom software, search, AI chat bots, PoS system, or phone/texting systems.
+                                Share what you are trying to improve and we will outline the highest-impact next steps for your website, ecommerce store, custom software, search, AI chat bots, booking system, PoS system, phone/texting systems, or email marketing.
                             </p>
                             <a class="contact-email" href="mailto:hello@uptergrovedigital.com">
                                 <i class="bi bi-envelope"></i>
@@ -478,8 +500,10 @@ $team = [
                                             <option>Custom software creation</option>
                                             <option>More local visibility</option>
                                             <option>AI chat bot service</option>
+                                            <option>Online booking system</option>
                                             <option>Point of Sale system</option>
                                             <option>Phone and texting systems</option>
+                                            <option>Email marketing</option>
                                             <option>Analytics and reporting</option>
                                         </select>
                                     </div>
