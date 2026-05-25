@@ -8,17 +8,17 @@ $services = [
         'theme' => 'light',
     ],
     [
-        'title' => 'Conversion-Focused Websites',
+        'title' => 'Websites',
         'label' => 'Web design',
         'icon' => 'bi-window-sidebar',
-        'body' => 'Fast, clear pages built around trust, speed, and the actions that move a visitor into your pipeline.',
+        'body' => 'Modern business websites built for clarity, speed, trust, and the workflows your customers expect online.',
         'theme' => 'blue',
     ],
     [
-        'title' => 'Paid Media Campaigns',
-        'label' => 'Ads',
-        'icon' => 'bi-megaphone',
-        'body' => 'Search, social, and retargeting campaigns shaped around clean offers, better landing pages, and measured ROI.',
+        'title' => 'AI Chat Bots',
+        'label' => 'AI automation',
+        'icon' => 'bi-robot',
+        'body' => 'Custom AI chat assistants that answer questions, qualify leads, collect details, and help customers take the next step.',
         'theme' => 'navy',
     ],
     [
@@ -50,8 +50,8 @@ $caseStudies = [
         'body' => 'Restructured service pages and Google profile content to improve map-pack presence and quote requests.',
     ],
     [
-        'title' => 'Cleaner paid search funnel',
-        'body' => 'Paired tighter keyword groups with dedicated landing pages so spend tracked directly to qualified leads.',
+        'title' => 'AI lead capture assistant',
+        'body' => 'Added an AI chat bot to answer common questions, collect project details, and route qualified leads faster.',
     ],
     [
         'title' => 'Website trust rebuild',
@@ -73,7 +73,7 @@ $process = [
     [
         'step' => '03',
         'title' => 'Build and launch',
-        'body' => 'We create the pages, campaigns, content, automations, and tracking needed to launch with clean execution.',
+        'body' => 'We create the pages, AI chat bots, content, automations, and tracking needed to launch with clean execution.',
     ],
     [
         'step' => '04',
@@ -96,9 +96,9 @@ $team = [
         'initials' => 'UX',
     ],
     [
-        'name' => 'Campaign Manager',
-        'role' => 'Traffic and reporting',
-        'body' => 'Manages paid and organic campaigns with clean tracking, testing, and concise performance readouts.',
+        'name' => 'AI Automation Specialist',
+        'role' => 'Chat bots and reporting',
+        'body' => 'Builds AI chat flows, lead routing, and clean tracking so automated conversations stay useful and measurable.',
         'initials' => 'PM',
     ],
 ];
@@ -108,8 +108,8 @@ $team = [
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Uptergrove Digital | Digital Marketing, Websites, SEO, and Paid Media</title>
-    <meta name="description" content="Uptergrove Digital builds conversion-focused websites, SEO systems, paid campaigns, and reporting for growing businesses.">
+    <title>Uptergrove Digital | Digital Marketing, Websites, SEO, and AI Chat Bots</title>
+    <meta name="description" content="Uptergrove Digital builds websites, SEO systems, AI chat bots, automations, and reporting for growing businesses.">
     <link rel="icon" href="assets/img/uptergrove-mark.png">
     <script>document.documentElement.classList.add('js');</script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -149,7 +149,7 @@ $team = [
                         <p class="eyebrow">Digital marketing studio</p>
                         <h1><span>Uptergrove</span><span>Digital</span></h1>
                         <p class="hero-lead">
-                            Digital marketing, websites, SEO, and campaign systems for businesses that want sharper visibility and steadier lead flow.
+                            Digital marketing, websites, SEO, and AI chat bots for businesses that want sharper visibility and steadier lead flow.
                         </p>
                         <div class="hero-actions">
                             <a href="#contact" class="btn btn-primary-blue btn-lg">
@@ -196,7 +196,7 @@ $team = [
                             </div>
                             <div class="console-footer">
                                 <i class="bi bi-check-circle-fill"></i>
-                                Campaigns, content, and web systems aligned.
+                                AI, content, and web systems aligned.
                             </div>
                         </div>
                     </div>
@@ -205,7 +205,7 @@ $team = [
                 <div class="capability-strip" aria-label="Core capabilities">
                     <span>SEO</span>
                     <span>Websites</span>
-                    <span>Paid Media</span>
+                    <span>AI Chat Bots</span>
                     <span>Local Search</span>
                     <span>Automation</span>
                     <span>Analytics</span>
@@ -298,7 +298,7 @@ $team = [
             <div class="container">
                 <div class="section-heading reveal">
                     <h2><span>Team</span></h2>
-                    <p>Strategy, web, and campaign execution working together instead of operating in disconnected lanes.</p>
+                    <p>Strategy, web, AI automation, and reporting working together instead of operating in disconnected lanes.</p>
                 </div>
 
                 <div class="row g-4">
@@ -336,7 +336,7 @@ $team = [
                         </div>
                         <div class="col-lg-6">
                             <blockquote>
-                                "The reporting finally connected our website, ads, and search traffic into one clear picture. We knew what to improve next."
+                                "The reporting finally connected our website, AI chat, and search traffic into one clear picture. We knew what to improve next."
                             </blockquote>
                             <p>Operations director</p>
                         </div>
@@ -353,7 +353,7 @@ $team = [
                             <p class="eyebrow">Let's make things happen</p>
                             <h2>Start with a focused digital growth review.</h2>
                             <p>
-                                Share what you are trying to improve and we will outline the highest-impact next steps for your website, search, and campaigns.
+                                Share what you are trying to improve and we will outline the highest-impact next steps for your website, search, and AI chat bots.
                             </p>
                             <a class="contact-email" href="mailto:hello@uptergrovedigital.com">
                                 <i class="bi bi-envelope"></i>
@@ -377,7 +377,7 @@ $team = [
                                             <option>More qualified leads</option>
                                             <option>Better website conversion</option>
                                             <option>More local visibility</option>
-                                            <option>Paid media performance</option>
+                                            <option>AI chat bot setup</option>
                                             <option>Analytics and reporting</option>
                                         </select>
                                     </div>

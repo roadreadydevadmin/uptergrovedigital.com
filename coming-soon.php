@@ -18,7 +18,7 @@
             <p class="eyebrow">Launching soon</p>
             <h1>Uptergrove Digital is coming soon.</h1>
             <p>
-                We are building a sharper digital home for our strategy, website, SEO, paid media, and reporting services.
+                We are building a sharper digital home for our strategy, websites, SEO, AI chat bots, and reporting services.
             </p>
             <div class="soon-actions">
                 <a class="btn btn-primary-blue btn-lg" href="mailto:hello@uptergrovedigital.com">
